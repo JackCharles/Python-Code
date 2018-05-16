@@ -1,0 +1,16 @@
+--使用说明--
+1.脚本分为全部下载和章节下载两部分，all.py下载漫画《进击的巨人》全部，
+  约1.04GB，下载时间视网络而定（学校大约3-4分钟）。onechapter.py下载
+  指定章节。
+2.all.py 直接在控制台运行即可，无需任何参数。onechapter.py需要手动指定
+  chapter-id，比如77章节URL为：http://manhua.fzdm.com/39/77
+  或者：http://manhua.fzdm.com/39/77/index_1.html 则其中的数字77所在的
+  位置对应部分为chapter-id,注意不是所有章节都是简单的数字，比如
+  《进击的巨人短喜剧52话》的URL：http://manhua.fzdm.com/39/dxj52/ 它的
+  chapter-id为dxj52，其余以此类推。
+3.下载前确保当前文件夹下不要有与"进击的巨人ALL"或"进击的巨人PART"同名文
+  件夹存在。
+4.程序带有失败重传功能，最后下载失败的图片url保存在下载目录下的FailedList.txt
+  文件中，你可以手动访问这些链接，应该都无法访问。
+5.要运行此脚本，你需要安装python3,并安装requests模块，具体方法自行百度。
+6.未尽相关事宜，请联系作者:zj2011@live.com.
